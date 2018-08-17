@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Crystal Collectors!</h1>
+  </div>
+
+  <div id="wrapper">
+      <h2>Da Instructions</h2>
+      <ui>
+          <li>A random number will be generated at the start.</li>
+          <br>
+          <li>There are 4 crystals below. By clicking on them, it will add a specific amount of points to your score</li>
+          <br>
+          <li>You win the game by matching your total score to the random number. You lose if your score goes over the random number!!</li>
+          <br>
+          <li>One small problem, the value of each crystal is hidden until you click on it!!!</li>
+          <br>
+          <li>Last but not least, each time the game starts, the value of each crystl changes.</li>        
+      </ui>
+  </div>
+
+  <div id="random">
+      <h2>Number to hit</h2>
+      <p id="hit"></p>
+      
+  </div>
+  <div id="winsLoss">
+    <h2>Your Score</h2>
+    <p>wins:</p>
+    <p>Losses:</p>
+  </div>
+    
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/javascript/game.js"></script>
+
+</body>
+</html>

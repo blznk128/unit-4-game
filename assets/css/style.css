@@ -1,0 +1,48 @@
+#container {
+    background: yellow;
+    padding: 20px;
+    height: 40px;
+    width: 135px;
+}
+
+#wrapper {
+    background: orangered;
+    padding: 20px;
+    width: 840px;
+    margin-top: 20px;
+}
+
+#random {
+    background: green;
+    padding: 20px;
+    width: 130px;
+    height: 110px;
+    margin-top: 20px;
+}
+
+#winsLoss {
+    padding:20px;
+    background: teal;
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    bottom: 0px;
+    top: 320px;
+    left: 200px;
+}
+
+#hit {
+    text-align: center;
+}
+
+body {
+    background:url(https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Crystal-Widescreen-Background-PIC-WPB0011455.jpg);
+    background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
