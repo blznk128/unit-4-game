@@ -13,7 +13,7 @@
 }
 
 #random {
-    background: green;
+    background: grey;
     padding: 20px;
     width: 130px;
     height: 110px;
@@ -42,7 +42,25 @@ body {
 	animation: animatedBackground 40s linear infinite;
 }
 
+.crystal, .crystal2, .crystal3, .crystal4 {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
+}
+
+#score {
+    width: 200px;
+    padding: 20px;
+    background: white;
+    position: absolute;
+    bottom: 70px;
+    left: 386px;
+    height: 108px;
+    top: 320px;
 }
