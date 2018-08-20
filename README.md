@@ -7,3 +7,5 @@ Then the issue I had was each time I clicked the crystal, it kept picking a diff
 it wouldnt add properly after it chose a new number. Eventually I got those issues fixed, then I realized when the random number
 players have to get reset to another number, it wouldn't update it on the screen. This homework definitely challenged everything
 I know about javascript and had to read the activities over and over and also read a book about javascript to figure it out.
+
+Link to portfolio  https://blznk128.github.io/portfolio.html
