@@ -1,11 +1,12 @@
-# unit-4-game
-
-I had a tough time seperating the random numbers the Math.random method returned. I originally just re wrote the
-lines of code for each crystal but realized there has to be a easier, shorter way to get the same result.
-Before I sat up a function, but realized all 4 crystal shared the same random number that was generated.
-Then the issue I had was each time I clicked the crystal, it kept picking a different number everytime, I fixed that, then
-it wouldnt add properly after it chose a new number. Eventually I got those issues fixed, then I realized when the random number
-players have to get reset to another number, it wouldn't update it on the screen. This homework definitely challenged everything
-I know about javascript and had to read the activities over and over and also read a book about javascript to figure it out.
-
-Link to portfolio  https://blznk128.github.io/portfolio.html
+The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
+Here's how the app works:
+There will be four crystals displayed as buttons on the page.
+The player will be shown a random number at the start of the game.
+When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+Your game will hide this amount until the player clicks a crystal.
+When they do click one, update the player's score counter.
+The player wins if their total score matches the random number from the beginning of the game.
+The player loses if their score goes above the random number.
+The game restarts whenever the player wins or loses.
+When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
